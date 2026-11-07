@@ -3,7 +3,7 @@
 A personal monthly goal and daily consistency tracker built with vanilla HTML, CSS, and JavaScript.
 
 ## Run it
-
+https://jesca00.github.io/Chat_Goal_Tracker/
 Because the JavaScript uses ES modules, open the project through a local server rather than directly as a `file://` page.
 
 From this folder, run:
