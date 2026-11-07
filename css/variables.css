@@ -1,0 +1,21 @@
+:root {
+  --color-050: #FFE6F2;
+  --color-100: #FFB8DB;
+  --color-200: #FF8AC4;
+  --color-300: #FF69B4;
+  --color-400: #FF2E96;
+  --color-500: #FF0080;
+  --color-600: #D10069;
+  --color-700: #A30052;
+  --color-800: #75003B;
+  --color-900: #470024;
+  --color-950: #1A000D;
+
+  --font-body: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-heading: "Segoe Script", "Lucida Handwriting", cursive;
+  --radius-small: 10px;
+  --radius-medium: 17px;
+  --radius-large: 24px;
+  --content-width: 1080px;
+  --ease: 150ms ease;
+}

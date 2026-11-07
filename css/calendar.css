@@ -1,0 +1,9 @@
+.calendar-wrap { overflow-x: auto; padding-bottom: 6px; margin-top: 18px; }
+.contribution-calendar { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 11px); grid-auto-columns: 11px; gap: 4px; width: max-content; }
+.calendar-day { width: 11px; height: 11px; border-radius: 3px; background: var(--empty-dot); border: 1px solid var(--border); }
+.calendar-day.completed { background: var(--completed); border-color: var(--completed); }
+.calendar-day.future { opacity: .35; }
+.calendar-legend { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: .75rem; margin-top: 10px; }
+.calendar-legend .calendar-day { display: inline-block; }
+.calendar-month-labels { display: flex; gap: 18px; color: var(--muted); font-size: .72rem; margin-bottom: 7px; }
+.calendar-note { color: var(--muted); font-size: .8rem; margin: 8px 0 0; }
